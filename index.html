@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Michal Itrych | Front-End Developer</title>
+  </head>
+
+  <body>
+    <div class="nav__toggle" id="nav-toggle">
+      <i class="uil uil-bars"></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="index.html" class="nav__logo-text">M</a>
+        </div>
+        <div class="nav__menu">
+          <div class="menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__link">Skills</a>
+              </li>
+              <li class="nav__item">
+                <a href="#work" class="nav__link">Work</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn__share">
+          <i class="uil uil-share-alt social__share"></i>
+        </div>
+        <div class="nav__close" id="nav-close">
+          <i class="uil uil-times"></i>
+        </div>
+      </nav>
+    </aside>
+    <main class="main">
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__social">
+            <span class="home__social-follow">Follow Me</span>
+            <div class="home__social-links">
+              <a href="" target="_blank" class="home__social-link">
+                <i class="uil uil-github"></i>
+              </a>
+              <a href="" target="_blank" class="home__social-link">
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <img src="assets/img/home-img.png" alt="home-img" class="home__img" />
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Michał</h1>
+            <h3 class="home__subtitle">Junior Front-End developer</h3>
+            <p class="home__description">
+              "New challanges are only opurtunity to learn new things"
+            </p>
+            <a href="#about" class="button">
+              <i class="uil uil-user button__icon"></i>
+              More About Me
+            </a>
+          </div>
+          <div class="my__info">
+            <div class="info__item">
+              <i class="uil uil-whatsapp info__icon"></i>
+            </div>
+            <div>
+              <h3 class="info__title">Mobile Phone</h3>
+              <span class="info__subtitle">+48 605-255-548</span>
+            </div>
+            <div class="info__item">
+              <i class="uil uil-envelope-edit info__icon"></i>
+            </div>
+            <div>
+              <h3 class="info__title">Email</h3>
+              <span class="info__subtitle">contact@michalitrych.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 data-heading="My Intro" class="section__title">About Me</h2>
+        <div class="about__container container grid">
+          <img
+            src="assets/img/about-img.jpg"
+            alt="about-img"
+            class="about__img"
+          />
+          <div class="about__data">
+            <h3 class="about__heading">
+              Hi, I'm Michał Itrych, Based in Gdańsk
+            </h3>
+            <p class="about__description">
+              I have always been interested in computer science and web
+              development. Starting from simple websites using only HTML and
+              CSS. In 2020 I began learning JavaScript programming, dedicating
+              all of my free time to it. I constantly develop my skills, can
+              independently create applications and solve encountered problems.
+              I am not afraid to take on new challenges, they are only
+              motivation to learn more.
+            </p>
+            <a href="#contact" class="button"
+              ><i class="uil uil-navigator button__icon"></i>Contact Me</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="qualification section">
+        <h2 data-heading="My Journey" class="section__title">Qualification</h2>
+        <div class="qualification__container container grid">
+          <div class="education">
+            <h3 class="qualification__title">
+              <i class="uil uil-graduation-cap"></i>Education
+            </h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">Uniwersytet WSB Merito (Gdańsk)</h3>
+                <div class="timeline__text">Front-End Engineer</div>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2022 - Present
+                </span>
+              </div>
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">
+                  Powiatowy Zespół Szkół Nr2 (Wejherowo)
+                </h3>
+                <div class="timeline__text">IT Technician</div>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2018 - 2022
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <h3 class="qualification__title">
+              <i class="uil uil-suitcase"></i>Experience
+            </h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">Roger sp. z o.o. sp. k.</h3>
+                <div class="timeline__text">
+                  Front-End Developer (Freelancer)
+                </div>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  02 / 2023 - 03 / 2023
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills section" id="skills">
+        <h2 data-heading="My Abilities" class="section__title">
+          My Experience
+        </h2>
+        <div class="skills__container container grid">
+          <div class="skills__tabs">
+            <div class="skills__header skills__active" data-target="#frontend">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Front-End Developer</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__header" data-target="#design">
+              <i class="uil uil-swatchbook skills__icon"></i>
+              <div>
+                <h1 class="skills__title">UI / UX Design</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__header" data-target="#backend">
+              <i class="uil uil-server skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Back-End Developer</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+          </div>
+          <div class="skills__content">
+            <div
+              class="skills__group skills__active"
+              data-content
+              id="frontend"
+            >
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">Proficient</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">Competent</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">Proficient</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">Novice</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 20%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__group" data-content id="design">
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Photoshop</h3>
+                    <span class="skills__number">Proficient</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 80%"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__number">Competent</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 60%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__group" data-content id="backend">
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__number">Novice</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 20%"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C#</h3>
+                    <span class="skills__number">Novice</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 20%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work section" id="work">
+        <h2 data-heading="My Portfolio" class="section__title">Recent Work</h2>
+        <div class="work__filters"></div>
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/work-1.png" alt="work-1" class="work__img" />
+            <h3 class="work__title">RLK-1 Website</h3>
+            <span class="work__button"
+              >View More
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="portfolio__item-details">
+              <h3 class="details__title">RLK-1 Website GUI</h3>
+              <p class="details__description">
+                The RLK-1 website project was my first major project in web
+                development. I built a web application using HTML, CSS,
+                JavaScript, and a REST API. The application had the ability to
+                collect data from a controller in the form of .cgx files, using
+                the POST method and sending it back using the GET method.
+              </p>
+              <ul class="details__info">
+                <li>Created - <span>14.02.2023</span></li>
+                <li>Technologies - <span>HTML CSS JS REST</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="portfolio__popup">
+        <div class="portfolio__popup-inner">
+          <div class="portfolio__popup-content grid">
+            <span class="portfolio__popup-close"
+              ><i class="uil uil-times"></i
+            ></span>
+            <div class="pp__thumbnail">
+              <img
+                src="assets/img/work-2.webp"
+                alt="work-img"
+                class="portfolio__popup-img"
+              />
+            </div>
+            <div class="portfolio__popup-info">
+              <div class="portfolio__popup-subtitle">
+                Futured- <span>Design</span>
+              </div>
+              <div class="portfolio__popup-body">
+                <h3 class="details__title">RLK-1 Website</h3>
+                <p class="details__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam sit amet odio id felis facilisis maximus ut in lorem.
+                  Suspendisse potenti. Vivamus quis nisl sit amet augue varius
+                  finibus a vel odio. In consequat justo nec nisi porta
+                  placerat. Sed pharetra metus enim, mattis accumsan enim varius
+                  in. Cras tincidunt ullamcorper scelerisque. Nunc commodo ex
+                  pellentesque commodo iaculis.
+                </p>
+                <ul class="details__info">
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>Technologies - <span>html css</span></li>
+                  <li>
+                    View - <span><a href="#">www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="contacti section" id="contact">
+        <h2 data-heading="Get in touch" class="section__title">Contact Me</h2>
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="uil uil-envelope-edit contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">contact@michalitrych.com</span>
+                <span class="contact__button">
+                  Write me
+                  <i class="uil uil-arrow-right contact__button-icon"></i>
+                </span>
+              </div>
+              <div class="contact__card">
+                <i class="uil uil-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Mobile Phone</h3>
+                <span class="contact__card-data">+48 605-255-548</span>
+                <span class="contact__button">
+                  Call me
+                  <i class="uil uil-arrow-right contact__button-icon"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <form
+              action="https://formsubmit.co/contact@michalitrych.com"
+              method="POST"
+              class="contact__form"
+            >
+              <div class="input__container">
+                <input type="text" class="input" name="Full-Name" />
+                <label for="Full-Name">Full Name</label>
+                <span>Full Name</span>
+              </div>
+              <div class="input__container">
+                <input type="email" class="input" name="Email" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input__container">
+                <input type="tel" class="input" name="Phone-Number" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input__container textarea">
+                <textarea name="Message" id="" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://michalitrych.com/"
+              />
+              <button type="submit" class="button">
+                <i class="uil uil-navigator button__icon"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+            <div>
+              <h1 class="footer__title">Michał</h1>
+              <span class="footer__subtitle">Front-End Developer</span>
+            </div>
+            <ul class="footer__links">
+              <li>
+                <a href="#skills" class="footer__link">Skills</a>
+              </li>
+              <li>
+                <a href="#work" class="footer__link">Work</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer__link">Contact</a>
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="" target="_blank" class="footer__social">
+                <i class="uil uil-github"></i>
+              </a>
+              <a href="" target="_blank" class="footer__social">
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <p class="footer__copy">&#169; Michał Itrych. All right reserved</p>
+        </div>
+      </footer>
+    </main>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
